@@ -5,6 +5,7 @@
 *.swo
 *.tmproj
 log/*.log
+node_modules/
 test/reports/*
 tmp/cache/*
 tmp/sessions/*
