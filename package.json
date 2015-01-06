@@ -8,17 +8,17 @@
     }
   ],
   "description": "swagger.js is a javascript client for use with swaggering APIs.",
-  "version": "2.0.41",
-  "homepage": "http://swagger.wordnik.com",
+  "version": "2.0.46",
+  "homepage": "http://swagger.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wordnik/swagger-js.git"
+    "url": "git://github.com/swagger-api/swagger-js.git"
   },
   "main": "lib/swagger.js",
   "scripts": {
     "build": "PATH=$PATH:./node_modules/.bin cake bake",
     "dev": "PATH=$PATH:./node_modules/.bin cake dev",
-    "test": "open spec.html"
+    "test": "mocha"
   },
   "engines": {
     "node": ">= 0.6.6"
@@ -28,6 +28,9 @@
     "btoa": "1.1.1"
   },
   "devDependencies": {
+    "mocha": "^1.21.3",
+    "unit.js": "1.1.2",
+    "should": "4.4.2",
     "coffee-script": "~1.6.3"
   },
   "license": "apache 2.0"
